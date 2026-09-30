@@ -3,52 +3,52 @@
 const driveLinks = [
     {
         name: "1",
-        url: "https://drive.google.com/file/d/1JdVNYtTuz1b6HVFDoWS358RsUgT43m6k/view?usp=sharing",
+        url: "https://www.google.com",
         type: "archivo",
         icon: "📁"
-    }/*,
-    {
-        name: "Fotos 2026",
-        url: "https://drive.google.com/drive/folders/TU_ID_AQUI",
-        type: "folder",
-        icon: "🖼️"
     },
     {
-        name: "CV Actualizado",
-        url: "https://drive.google.com/file/d/TU_ID_AQUI/view",
-        type: "pdf",
-        icon: "📄"
+        name: "2",
+        url: "https://www.youtube.com",
+        type: "archivo",
+        icon: "📁"
     },
     {
-        name: "Proyecto Final",
-        url: "https://drive.google.com/file/d/TU_ID_AQUI/view",
-        type: "zip",
-        icon: "🗜️"
+        name: "3",
+        url: "",
+        type: "archivo",
+        icon: "📁"
     },
     {
-        name: "Presentación",
-        url: "https://docs.google.com/presentation/d/TU_ID_AQUI/edit",
-        type: "slide",
-        icon: "📊"
+        name: "4",
+        url: "",
+        type: "archivo",
+        icon: "📁"
     },
     {
-        name: "Presupuesto",
-        url: "https://docs.google.com/spreadsheets/d/TU_ID_AQUI/edit",
-        type: "sheet",
-        icon: "📈"
+        name: "5",
+        url: "",
+        type: "archivo",
+        icon: "📁"
     },
     {
-        name: "Video Tutorial",
-        url: "https://drive.google.com/file/d/TU_ID_AQUI/view",
-        type: "video",
-        icon: "🎬"
+        name: "6",
+        url: "",
+        type: "archivo",
+        icon: "📁"
     },
     {
-        name: "Música",
-        url: "https://drive.google.com/drive/folders/TU_ID_AQUI",
-        type: "folder",
-        icon: "🎵"
-    }*/
+        name: "7",
+        url: "",
+        type: "archivo",
+        icon: "📁"
+    },
+    {
+        name: "8",
+        url: "",
+        type: "archivo",
+        icon: "📁"
+    }
 ];
 
 // ===== ELEMENTOS DEL DOM =====
