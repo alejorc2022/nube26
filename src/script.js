@@ -1,51 +1,51 @@
 // ===== CONFIGURACIÓN DE ENLACES =====
-// 👇 EDITA AQUÍ TUS ENLACES DE GOOGLE DRIVE
+// 👇 EDITA AQUÍ TUS ENLACES
 const driveLinks = [
     {
         name: "1",
-        url: "https://www.google.com",
+        url: "https://drive.google.com/file/d/1JdVNYtTuz1b6HVFDoWS358RsUgT43m6k/view?usp=sharing",
         type: "archivo",
         icon: "📁"
     },
     {
         name: "2",
-        url: "https://www.youtube.com",
+        url: "https://drive.google.com/file/d/1FL2Ya0yd_v6TWvoylb3ssKr0ESKebdmn/view?usp=sharing",
         type: "archivo",
         icon: "📁"
     },
     {
         name: "3",
-        url: "",
+        url: "https://drive.google.com/file/d/1UYc7Yj_3zBVs-E3WmqCtfcpt6qNoUFjh/view?usp=sharing",
         type: "archivo",
         icon: "📁"
     },
     {
         name: "4",
-        url: "",
+        url: "https://drive.google.com/file/d/14QLHEisE9khrNRwO0TWyplP7d3XLsG-R/view?usp=sharing",
         type: "archivo",
         icon: "📁"
     },
     {
         name: "5",
-        url: "",
+        url: "https://drive.google.com/file/d/1QkdsZLzIwEsImfmGkdoQgpO8nGYZj6jU/view?usp=sharing",
         type: "archivo",
         icon: "📁"
     },
     {
         name: "6",
-        url: "",
+        url: "https://drive.google.com/file/d/1ZQbSapE-FJKU052BnlYPCg6pSHbzki9d/view?usp=sharing",
         type: "archivo",
         icon: "📁"
     },
     {
         name: "7",
-        url: "",
+        url: "https://drive.google.com/file/d/1gmxPLan4LkEx5mEXVctij8zUPigIm7up/view?usp=sharing",
         type: "archivo",
         icon: "📁"
     },
     {
         name: "8",
-        url: "",
+        url: "https://drive.google.com/file/d/1rE-WArN_Ps_j50tkkcvLHohgkKoAQ9Rq/view?usp=sharing",
         type: "archivo",
         icon: "📁"
     }
