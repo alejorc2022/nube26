@@ -3,19 +3,19 @@
 const driveLinks = [
     {
         name: "1",
-        url: "https://drive.google.com/file/d/1rE-WArN_Ps_j50tkkcvLHohgkKoAQ9Rq/view?usp=sharing",
+        url: "",
         type: "archivo",
         icon: "📁"
     },
     {
         name: "2",
-        url: "https://drive.google.com/file/d/1gmxPLan4LkEx5mEXVctij8zUPigIm7up/view?usp=sharing",
+        url: "",
         type: "archivo",
         icon: "📁"
     },
     {
         name: "3",
-        url: "https://drive.google.com/file/d/1QkdsZLzIwEsImfmGkdoQgpO8nGYZj6jU/view?usp=sharing",
+        url: "",
         type: "archivo",
         icon: "📁"
     },
