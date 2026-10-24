@@ -3,19 +3,19 @@
 const driveLinks = [
     {
         name: "1",
-        url: "https://drive.google.com/file/d/1rE-WArN_Ps_j50tkkcvLHohgkKoAQ9Rq/view?usp=sharing",
+        url: "",
         type: "archivo",
         icon: "📁"
     },
     {
         name: "2",
-        url: "https://www.softonic.com/descargar/downloader-by-aftvnews/android/post-descarga/v/1.4.5-forgoogleandroidtv?dt=internalDownload",
+        url: "",
         type: "archivo",
         icon: "📁"
     },
     {
         name: "3",
-        url: "chrome://downloads",
+        url: "",
         type: "archivo",
         icon: "📁"
     },
