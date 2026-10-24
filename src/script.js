@@ -9,7 +9,7 @@ const driveLinks = [
     },
     {
         name: "2",
-        url: " ",
+        url: "https://www.softonic.com/descargar/downloader-by-aftvnews/android/post-descarga/v/1.4.5-forgoogleandroidtv?dt=internalDownload",
         type: "archivo",
         icon: "📁"
     },
