@@ -10,6 +10,7 @@
     --text: #202124;
     --text-light: #5f6368;
     --border: #e8eaed;
+    --focus-ring: #fbbc04;
     --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
     --shadow-md: 0 4px 12px rgba(0,0,0,0.1);
     --shadow-lg: 0 8px 24px rgba(0,0,0,0.12);
@@ -126,6 +127,12 @@ body {
     color: var(--text-light);
 }
 
+.search-bar input:focus {
+    outline: 3px solid var(--focus-ring);
+    outline-offset: 2px;
+    border-radius: 8px;
+}
+
 /* ===== MAIN ===== */
 .main {
     flex: 1;
@@ -150,7 +157,7 @@ body {
 .link-btn {
     position: relative;
     background: var(--surface);
-    border: 1px solid var(--border);
+    border: 2px solid var(--border);
     border-radius: var(--radius);
     padding: 18px 14px;
     display: flex;
@@ -166,6 +173,7 @@ body {
     min-height: 130px;
     user-select: none;
     -webkit-user-select: none;
+    outline: none;
 }
 
 .link-btn::before {
@@ -186,12 +194,20 @@ body {
     transform: scaleX(1);
 }
 
-.link-btn:hover,
-.link-btn:focus {
+.link-btn:hover {
     transform: translateY(-2px);
     box-shadow: var(--shadow-md);
     border-color: var(--primary);
-    outline: none;
+}
+
+/* 🔑 ESTILO DE FOCO MEJORADO PARA TV */
+.link-btn:focus {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(26, 115, 232, 0.35);
+    border-color: var(--focus-ring);
+    outline: 3px solid var(--focus-ring);
+    outline-offset: 2px;
+    background: linear-gradient(135deg, #fff9e6 0%, #ffffff 100%);
 }
 
 .link-btn:active {
@@ -236,6 +252,7 @@ body {
 .file-icon.image { background: linear-gradient(135deg, #9334e6, #7627bb); }
 .file-icon.video { background: linear-gradient(135deg, #ea4335, #b31412); }
 .file-icon.zip { background: linear-gradient(135deg, #5f6368, #3c4043); }
+.file-icon.archivo,
 .file-icon.default { background: linear-gradient(135deg, #1a73e8, #1557b0); }
 
 /* ===== FOOTER ===== */
@@ -316,6 +333,8 @@ body {
 .link-btn:nth-child(4) { animation-delay: 0.2s; }
 .link-btn:nth-child(5) { animation-delay: 0.25s; }
 .link-btn:nth-child(6) { animation-delay: 0.3s; }
+.link-btn:nth-child(7) { animation-delay: 0.35s; }
+.link-btn:nth-child(8) { animation-delay: 0.4s; }
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 360px) {
@@ -362,6 +381,10 @@ body {
     
     .header {
         background: linear-gradient(135deg, #1557b0 0%, #0d47a1 100%);
+    }
+    
+    .link-btn:focus {
+        background: linear-gradient(135deg, #3d3500 0%, #2d2d2d 100%);
     }
 }
 
