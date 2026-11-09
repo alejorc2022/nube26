@@ -39,7 +39,7 @@ const driveLinks = [
     },
     {
         name: "7",
-        url: " ",
+        url: "https://drive.google.com/file/d/1gmxPLan4LkEx5mEXVctij8zUPigIm7up/view?usp=sharing",
         type: "archivo",
         icon: "📁"
     },
