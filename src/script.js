@@ -27,13 +27,13 @@ const driveLinks = [
     },
     {
         name: "5",
-        url: "https://drive.google.com/file/d/1WxeyBCchOcTT5R4ctsLSErLjXcjNNdx3/view?usp=sharing",
+        url: "",
         type: "archivo",
         icon: "📁"
     },
     {
         name: "6",
-        url: "https://drive.google.com/file/d/1P3ZIudZ0sMYEU0epsur9s0pFys8JcKZ5/view?usp=sharing",
+        url: "",
         type: "archivo",
         icon: "📁"
     },
