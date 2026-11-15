@@ -27,7 +27,7 @@ const driveLinks = [
     },
     {
         name: "5",
-        url: "",
+        url: "https://drive.google.com/file/d/1WxeyBCchOcTT5R4ctsLSErLjXcjNNdx3/view?usp=sharing",
         type: "archivo",
         icon: "📁"
     },
@@ -39,7 +39,7 @@ const driveLinks = [
     },
     {
         name: "7",
-        url: "",
+        url: "https://drive.google.com/file/d/1s8a5_D5ZPo8_XQioY6R4BUEOC3X6lpmm/view?usp=sharing",
         type: "archivo",
         icon: "📁"
     },
