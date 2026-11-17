@@ -9,7 +9,7 @@ const driveLinks = [
     },
     {
         name: "2",
-        url: "https://drive.google.com/file/d/1rEcjMViyV_plGZu7nEyv5FSzfwaVKYpD/view?usp=sharing",
+        url: "",
         type: "archivo",
         icon: "📁"
     },
