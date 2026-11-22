@@ -3,13 +3,13 @@
 const driveLinks = [
     {
         name: "1",
-        url: "",
+        url: "https://drive.google.com/file/d/1g2Ujp4770xoqaVlCE6BnOvwZtBKsi7yg/view?usp=sharing",
         type: "archivo",
         icon: "📁"
     },
     {
         name: "2",
-        url: "",
+        url: "https://drive.google.com/file/d/1rEcjMViyV_plGZu7nEyv5FSzfwaVKYpD/view?usp=sharing",
         type: "archivo",
         icon: "📁"
     },
@@ -21,7 +21,7 @@ const driveLinks = [
     },
     {
         name: "4",
-        url: "",
+        url: "https://drive.google.com/file/d/1Q21XJMYLSsLc08t-Shw7XbUp05fX6Iuk/view?usp=sharing",
         type: "archivo",
         icon: "📁"
     },
